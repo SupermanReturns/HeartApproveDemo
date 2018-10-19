@@ -16,6 +16,7 @@
 		CF23E6852179BB3400231362 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF23E6842179BB3400231362 /* main.m */; };
 		CF23E68F2179BB3400231362 /* HeartApproveDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF23E68E2179BB3400231362 /* HeartApproveDemoTests.m */; };
 		CF23E69A2179BB3400231362 /* HeartApproveDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF23E6992179BB3400231362 /* HeartApproveDemoUITests.m */; };
+		CF23E6A92179BC9F00231362 /* HeartFlyView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF23E6A82179BC9F00231362 /* HeartFlyView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		CF23E6952179BB3400231362 /* HeartApproveDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeartApproveDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF23E6992179BB3400231362 /* HeartApproveDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeartApproveDemoUITests.m; sourceTree = "<group>"; };
 		CF23E69B2179BB3400231362 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF23E6A72179BC9F00231362 /* HeartFlyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeartFlyView.h; sourceTree = "<group>"; };
+		CF23E6A82179BC9F00231362 /* HeartFlyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeartFlyView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 				CF23E6732179BB3200231362 /* AppDelegate.m */,
 				CF23E6752179BB3200231362 /* ViewController.h */,
 				CF23E6762179BB3200231362 /* ViewController.m */,
+				CF23E6A72179BC9F00231362 /* HeartFlyView.h */,
+				CF23E6A82179BC9F00231362 /* HeartFlyView.m */,
 				CF23E6782179BB3200231362 /* Main.storyboard */,
 				CF23E67E2179BB3400231362 /* Assets.xcassets */,
 				CF23E6802179BB3400231362 /* LaunchScreen.storyboard */,
@@ -269,6 +274,7 @@
 				CF23E67D2179BB3200231362 /* HeartApproveDemo.xcdatamodeld in Sources */,
 				CF23E6852179BB3400231362 /* main.m in Sources */,
 				CF23E6742179BB3200231362 /* AppDelegate.m in Sources */,
+				CF23E6A92179BC9F00231362 /* HeartFlyView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +444,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78S8WECG83;
 				INFOPLIST_FILE = HeartApproveDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -454,6 +461,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78S8WECG83;
 				INFOPLIST_FILE = HeartApproveDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
