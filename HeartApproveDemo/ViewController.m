@@ -96,7 +96,7 @@
     [UIView setAnimationDuration:duration];
     
     //  拼接图片名字
-    imageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"good%d_30x30_.png",imageName]];
+    imageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"heart%d.png",imageName]];
     
     //  设置imageView的结束frame
     imageView.frame = CGRectMake( finishX, finishY, 30 * scale, 30 * scale);
