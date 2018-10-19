@@ -33,7 +33,7 @@
     [self.view addGestureRecognizer:longPressGesture];
 }
 -(void)showTheLove{
-    DMHeartFlyView* heart = [[DMHeartFlyView alloc]initWithFrame:CGRectMake(0, 0, _heartSize, _heartSize)];
+    HeartFlyView *heart = [[HeartFlyView alloc]initWithFrame:CGRectMake(0, 0, _heartSize, _heartSize)];
     [self.view addSubview:heart];
     CGPoint fountainSource = CGPointMake(20 + _heartSize/2.0, self.view.bounds.size.height - _heartSize/2.0 - 10);
     heart.center = fountainSource;
